@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-mat-gjnana-lib',
+  selector: 'lib-lib-mat-gjnana',
   standalone: true,
   imports: [],
   template: `
     <p>
-      mat-gjnana-lib works!
+      lib-mat-gjnana works!
     </p>
   `,
   styles: ``
 })
-export class MatGjnanaLibComponent {
+export class LibMatGjnanaComponent {
 
 }

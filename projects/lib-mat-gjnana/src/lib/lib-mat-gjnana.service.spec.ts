@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MatGjnanaLibService } from './mat-gjnana-lib.service';
+import { LibMatGjnanaService } from './lib-mat-gjnana.service';
 
-describe('MatGjnanaLibService', () => {
-  let service: MatGjnanaLibService;
+describe('LibMatGjnanaService', () => {
+  let service: LibMatGjnanaService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(MatGjnanaLibService);
+    service = TestBed.inject(LibMatGjnanaService);
   });
 
   it('should be created', () => {

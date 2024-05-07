@@ -8,8 +8,8 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "mat-gjnana-lib": [
-        "./dist/mat-gjnana-lib"
+      "lib-mat-gjnana": [
+        "./dist/lib-mat-gjnana"
       ]
     },
     "noFallthroughCasesInSwitch": true,

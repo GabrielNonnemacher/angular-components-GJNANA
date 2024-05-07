@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MatGjnanaLibComponent } from './mat-gjnana-lib.component';
+import { LibMatGjnanaComponent } from './lib-mat-gjnana.component';
 
-describe('MatGjnanaLibComponent', () => {
-  let component: MatGjnanaLibComponent;
-  let fixture: ComponentFixture<MatGjnanaLibComponent>;
+describe('LibMatGjnanaComponent', () => {
+  let component: LibMatGjnanaComponent;
+  let fixture: ComponentFixture<LibMatGjnanaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MatGjnanaLibComponent]
+      imports: [LibMatGjnanaComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MatGjnanaLibComponent);
+    fixture = TestBed.createComponent(LibMatGjnanaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -11,6 +11,4 @@ import { Component, Input } from '@angular/core';
 export class CompGjnanaButtonComponent {
   @Input() variant: "primary" | "secondary" = "primary";
   @Input() size: "sm" | "md" | "lg" | "xlg" = "md";
-
-
 }

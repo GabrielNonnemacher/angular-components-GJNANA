@@ -9,6 +9,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './comp-gjnana-button.component.scss'
 })
 export class CompGjnanaButtonComponent {
-  @Input() variant: "primary" | "secondary" = "primary";
-  @Input() size: "sm" | "md" | "lg" | "xlg" = "md";
+  @Input() variant: "primary" | "secondary" | "tertiary"
+    | "quaternary" | "success" | "info" | "warning" | "danger" = "primary";
+  @Input() size: "sm" | "md" | "lg" | "xlg" | "xxlg" = "md";
 }

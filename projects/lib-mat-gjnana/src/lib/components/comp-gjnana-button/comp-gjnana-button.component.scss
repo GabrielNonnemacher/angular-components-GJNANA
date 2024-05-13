@@ -1,34 +1,104 @@
+div.container-8px {
+    padding: 8px !important;
+}
+
 button {
+    margin: 8px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
-    color: #ffffff;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.4s;
 }
 
 button.primary {
-    background-color: rgb(117, 39, 191);
+    background-color: rgb(122, 32, 207);
+}
+
+button.primary:hover {
+    background-color: rgb(139, 46, 226);
 }
 
 button.secondary {
-    background-color: rgb(58, 42, 151);
+    background-color: rgb(16, 197, 148);
+}
+
+button.secondary:hover {
+    background-color: rgb(23, 215, 164);
+}
+
+button.tertiary {
+    background-color: #d7800e;
+}
+
+button.tertiary:hover {
+    background-color: #e68e1a;
+}
+
+button.quaternary {
+    background-color: #d70e83;
+}
+
+button.quaternary:hover {
+    background-color: #ee259b;
+}
+
+button.success {
+    background-color: rgb(51, 164, 83);
+}
+
+button.success:hover {
+    background-color: rgb(55, 177, 90);
+}
+
+button.info {
+    background-color: rgb(51, 100, 164);
+}
+
+button.info:hover {
+    background-color: rgb(59, 107, 170);
+}
+
+button.warning {
+    background-color: rgb(227, 176, 24);
+}
+
+button.warning:hover {
+    background-color: rgb(228, 190, 77);
+}
+
+button.danger {
+    background-color: rgb(214, 65, 65);
+}
+
+button.danger:hover {
+    background-color: rgb(225, 68, 68);
 }
 
 button.sm {
-    padding: 0 4px;
-    min-height: 32px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 button.md {
-    padding: 0 8px;
-    min-height: 32px;
+    padding: 12px 20px;
 }
 
 button.lg {
-    padding: 0 16px;
-    min-height: 48px;
+    padding: 16px 24px;
+    font-size: 20px;
 }
 
 button.xlg {
-    padding: 0 24px;
-    min-height: 64px;
+    padding: 20px 24px;
+    font-size: 20px;
+}
+
+button.xxlg {
+    padding: 24px 32px;
+    font-size: 24px;
 }

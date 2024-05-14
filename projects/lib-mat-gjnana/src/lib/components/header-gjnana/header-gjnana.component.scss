@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+header.primary {
+    background-color: rgb(122, 32, 207);
+}
+
+header.secondary {
+    background-color: rgb(16, 197, 148);
+}
+
+header.tertiary {
+    background-color: #d7800e;
+}
+
+header.quaternary {
+    background-color: #d70e83;
+}
+
+header.sm {
+    height: 56px;
+}
+
+header.md {
+    height: 72px;
+}
+
+header.lg {
+    height: 96px;
+}

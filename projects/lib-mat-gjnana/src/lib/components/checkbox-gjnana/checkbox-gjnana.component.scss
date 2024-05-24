@@ -1,0 +1,58 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.348);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.basic {
+    background-color: rgb(9, 9, 9);
+}
+
+div.primary {
+    background-color: rgb(122, 32, 207);
+}
+
+div.secondary {
+    background-color: rgb(16, 197, 148);
+}
+
+div.tertiary {
+    background-color: #d7800e;
+}
+
+div.quaternary {
+    background-color: #d70e83;
+}
+
+div.sm {
+    height: 20px;
+    width: 20px;
+}
+
+div.md {
+    height: 24px;
+    width: 24px;
+}
+
+div.lg {
+    height: 28px;
+    width: 28px;
+}
+
+img.sm {
+    height: 12px;
+    width: 12px;
+}
+
+img.md {
+    height: 16px;
+    width: 16px;
+}
+
+img.lg {
+    height: 20px;
+    width: 20px;
+}
